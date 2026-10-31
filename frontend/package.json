@@ -1,0 +1,42 @@
+{
+  "name": "nuxt-app",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "devDependencies": {
+    "nuxt": "^3.9.3",
+    "sass-embedded": "^1.83.4",
+    "vite-plugin-svg-icons": "^2.0.1",
+    "vue": "^3.4.14",
+    "vue-router": "^4.2.5"
+  },
+  "dependencies": {
+    "@antv/g2": "^5.1.15",
+    "@element-plus/icons-vue": "^2.3.1",
+    "@nuxt/ui": "^2.12.3",
+    "@pinia/nuxt": "^0.7.0",
+    "@types/axios": "^0.9.36",
+    "@unhead/shared": "^1.11.18",
+    "axios": "^1.7.9",
+    "d3": "^7.9.0",
+    "d3-bboxCollide": "^1.0.4",
+    "d3-cloud": "^1.2.7",
+    "d3-dsv": "^3.0.1",
+    "d3-sankey": "^0.12.3",
+    "dompurify": "^3.2.4",
+    "file-saver": "^2.0.5",
+    "h3": "^1.14.0",
+    "nuxt-icon": "^1.0.0-beta.7",
+    "papaparse": "^5.5.2",
+    "pinia": "^2.2.6",
+    "socket.io-client": "^4.8.1",
+    "vue-wordcloud": "^1.1.1",
+    "vuedraggable": "^2.24.3"
+  }
+}

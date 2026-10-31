@@ -1,0 +1,7 @@
+# Optional dependencies for the local-model backend variants
+# (app_md.py, app_nv.py, app_ro.py, app_La.py, overview_md.py, overview_nv.py,
+#  overview_ro.py, overview_La.py, overview_la2.py).
+# Install on top of requirements.txt only if you want to run these variants,
+# which load embedding models locally instead of calling an API.
+torch
+transformers

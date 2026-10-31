@@ -1,0 +1,10 @@
+flask
+flask-cors
+openai
+numpy
+scikit-learn
+umap-learn
+requests
+chardet
+pypdf
+python-dotenv
